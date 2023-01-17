@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Square", "Square.csproj", "{531A87A2-2CA3-4661-96A7-6B7B9E7DA841}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Square", "Square.csproj", "{531A87A2-2CA3-4661-96A7-6B7B9E7DA841}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchSquare", "..\SearchSquare\SearchSquare.csproj", "{D940A7C8-C955-4CDF-9A1D-D5EFA1F4B4E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchSquare", "..\SearchSquare\SearchSquare.csproj", "{D940A7C8-C955-4CDF-9A1D-D5EFA1F4B4E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL task", "SQL task", "{7A6A7C8C-B544-4A50-B805-DF599576B4E1}"
+	ProjectSection(SolutionItems) = preProject
+		sql-query.txt = sql-query.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

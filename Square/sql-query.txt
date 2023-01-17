@@ -1,0 +1,11 @@
+SELECT 
+	Name_of_the_product,
+	Name_of_the_category 
+FROM
+	Product, 
+	Category 
+WHERE
+	Product.CategoryId = Category.Id 
+OR	
+	Product.CategoryId IS NULL;
+
