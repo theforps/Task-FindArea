@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Square", "Square.csproj", "{531A87A2-2CA3-4661-96A7-6B7B9E7DA841}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchSquare", "..\SearchSquare\SearchSquare.csproj", "{D940A7C8-C955-4CDF-9A1D-D5EFA1F4B4E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{531A87A2-2CA3-4661-96A7-6B7B9E7DA841}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{531A87A2-2CA3-4661-96A7-6B7B9E7DA841}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{531A87A2-2CA3-4661-96A7-6B7B9E7DA841}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{531A87A2-2CA3-4661-96A7-6B7B9E7DA841}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D940A7C8-C955-4CDF-9A1D-D5EFA1F4B4E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D940A7C8-C955-4CDF-9A1D-D5EFA1F4B4E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D940A7C8-C955-4CDF-9A1D-D5EFA1F4B4E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D940A7C8-C955-4CDF-9A1D-D5EFA1F4B4E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD635A11-9E1E-4D41-8930-61C7B05A65F2}
+	EndGlobalSection
+EndGlobal
