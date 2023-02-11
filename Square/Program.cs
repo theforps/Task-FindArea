@@ -6,7 +6,7 @@ namespace Square
     {
         static void Main(string[] args)
         {
-            Search ser = new Search();
+            Objects ser = new Objects();
             
             while(true)
             {
@@ -30,7 +30,7 @@ namespace Square
         }
         public static void Answer(string name)
         {
-            Search ser = new Search();
+            Objects ser = new Objects();
 
             if (name.ToLower() == ser.NamesOfFigure[0])
             {

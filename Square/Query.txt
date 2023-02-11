@@ -1,0 +1,5 @@
+USE Market
+
+SELECT Product_name, Category_name
+FROM Product 
+LEFT JOIN Category ON Product.Category_Id = Category.Id
