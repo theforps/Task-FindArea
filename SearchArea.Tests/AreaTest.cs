@@ -1,5 +1,3 @@
-using SearchSquare;
-
 namespace SearchArea.Tests
 {
     public class AreaTest

@@ -1,7 +1,7 @@
 ﻿using SearchSquare.Interfaces;
 using System.Diagnostics;
 
-namespace SearchSquare
+namespace SearchArea
 {
     public class Area : IObjects
     {
