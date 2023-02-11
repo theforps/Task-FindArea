@@ -3,20 +3,22 @@ using System.Diagnostics;
 
 namespace SearchSquare
 {
-    public class Objects : IObjects
+    public class Area : IObjects
     {
         public double Aria(double r)
         {
+            double S = 0;
+
             try
             {
-                double S = Math.Pow(r, 2) * 3.14;
+                S = Math.Round((Math.Pow(r, 2) * 3.14),2);
             }
             catch (Exception ex) 
             {
                 Trace.WriteLine(ex);
             }
 
-            return r;
+            return S;
         }
 
         public double Aria(double x, double y, double z)
